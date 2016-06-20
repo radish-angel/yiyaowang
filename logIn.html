@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+		<link rel="stylesheet" type="text/css" href="css/logIn.css">
+		<script src="js/jquery.js "></script>
+		<script src="js/login.js"></script>
+		
+	</head>
+
+	<body>
+		<div class="head wrap">
+			<a href="#"><img src="img/yao_logo.png"></a>
+		</div>
+		<div class="login_wrap wrap">
+			<a href="#" class="bg_link"></a>
+			<div class="log_r">
+				<h2 class="lg_title">
+				  Hi，欢迎登录！
+                  <span class="fr">还不是1药网会员! <a class="blue_link" href="#">免费注册</a></span> 
+                </h2>
+				<form autocomplete="off">
+					<div class="reg_form">
+						<div class="row_reg">
+							<input id="userName" class="form-control u_name" type="text" tabindex="1" placeholder="邮箱/手机号/用户名" autocomplete="off" name="ecuserCustomer.id">
+							<p style="color:red;" id="no-bare" class="no-bare">不能为空</p>
+							<p style="color:red;" class="no-user">您输入的账户不存在</p>
+						</div>
+						
+						<div class="row_reg  no-margin">
+							<input type="password" tabindex="2" class="form-control u_ps" placeholder="登录密码" autocomplete="off" name="ecuserCustomer.password" id="userPass">
+						</div>
+						<div class="pass_prompt">
+							<span  class="input_pass" style="color:red;">请输入密码</span>
+							<span class="frm"><a class="gray" target="_blank" tabindex="-1" href="#">忘记密码？</a></span>
+						</div>
+						<div class="verification_box">
+							<input type="text" class="test_input" placeholder="验证码">
+							<i ><img class="test_img" src="img/veri1.jpeg"></i>
+							<span class="change">换一张</span>
+						</div>
+						<span style="color:red; display:none" class="test_node">请输入验证码</span>
+						<div class="">
+							<label class="checkbox">
+								<input id="rememberPwd" type="checkbox" tabindex="-1" name="rememberPwd" value="1">
+								<span class="two_week">两周内免登录</span>
+						    </label>
+							<button id="btnSubmit" class="btn btn-primary" type="button">登录</button>		
+					</div>
+					<p class="other_way">使用合作伙伴账号登录：</p>
+					<div class="reg_row hz_login">
+						<a class="first a_yhd" href="#" ></a>
+						<a class="a_zfb" href="#" ></a>
+						<a class="a_qq" href="#"></a>
+						<a class="a_sina" href="#" ></a>
+						<a class="a_wlt" href="#" ></a>
+						<a class="last a_wy"  href="#"></a>
+					</div>
+			</div>
+			</form>
+		</div>
+		</div>
+	</body>
+
+</html>

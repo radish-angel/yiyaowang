@@ -1,0 +1,62 @@
+.elevator_n {
+	position: fixed;
+	top: 120px;
+	left: 27px;
+	display: none;
+}
+
+.xsg {
+	border-image: none;
+	border: solid 1px #e6e6e6;
+	color: #157cdb;
+	display: block;
+	font-family: "Microsoft YaHei";
+	padding: 5px 0;
+	text-align: center;
+	text-decoration: none;
+	width: 48px;
+	cursor: pointer;
+}
+
+.elevator_n li {
+	background-color: #fff;
+	border-color: #e6e6e6;
+	border-image: none;
+	border-style: solid;
+	border-width: 0 1px 1px 1px;
+	cursor: pointer;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	text-align: center;
+	width: 48px;
+	position:relative;
+}
+
+.elevator_n li span {
+	display: none;
+	width:46px;
+	height:36px;
+	position: absolute;
+	padding:2px;
+	left: 0;
+	top: 0;
+	font-size: 12px;
+	line-height:17px;
+}
+
+.elevator_n li.hover span {
+	background:dodgerblue;
+	color: white;
+	display: block;
+}
+.elevator_n li span.active{
+	background:dodgerblue;
+	color: white;
+	display: block;
+}
+.elevator_n li.hover span.active {
+	background:dodgerblue;
+	color: white;
+	display: block;
+}
